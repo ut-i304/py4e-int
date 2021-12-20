@@ -16,7 +16,7 @@ sys.path.append(os.getcwd())
 
 home_dir = os.getcwd()
 
-project_name = "py4e-int"
+project_name = "py4e-int-i304"
 
 #master_url = None
 #if master_url is None:
