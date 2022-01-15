@@ -225,7 +225,7 @@ Multiple Choice Questions
 
 
 .. mchoice:: str-ex-mc-animal-no-space
-    :practice: True
+    :practice: T
     :answer_a: dogdog
     :answer_b: dog dog
     :answer_c: animal dog
@@ -243,3 +243,24 @@ Multiple Choice Questions
 
       animal = "dog"
       print("animal" + animal)
+
+
+.. mchoice:: str-ex-mc-animal-with-space-but-in-quotes
+    :practice: T
+    :answer_a: animal animal
+    :answer_b: animalanimal
+    :answer_c: animal dog
+    :answer_d: animaldog
+    :correct: a
+    :feedback_a: Since animal is in quotes it will print those exact letters.
+    :feedback_b: There is a space in the first string.
+    :feedback_c: Notice that the second animal is also in quotes.
+    :feedback_d: Notice that the second animal is also in quotes and there is a space after the first string.
+
+
+    What is printed by the following statements?
+
+    .. code-block:: python
+
+      animal = "dog"
+      print("animal " + "animal")
