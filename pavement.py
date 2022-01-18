@@ -36,7 +36,7 @@ if master_url is None:
     master_url = get_master_url()
 
 master_app = 'runestone'
-serving_dir = "./build/py4e-int"
+serving_dir = "./build/py4e-int-i304"
 
 #new 7/2019 changes
 # Change to False when running localhost
@@ -56,9 +56,9 @@ options(
     sphinx = Bunch(docroot=".",),
 
     build = Bunch(
-        builddir="./build/py4e-int",
+        builddir="./build/py4e-int-i304",
         sourcedir="_sources",
-        outdir="./build/py4e-int",
+        outdir="./build/py4e-int-i304",
         confdir=".",
         project_name=project_name,
         template_args={'course_id': project_name,
@@ -69,7 +69,7 @@ options(
                        'use_services': 'true',
                        'python3': 'true',
                        'dburl': 'postgresql://runestone@localhost/runestone',
-                       'basecourse': 'py4e-int',
+                       'basecourse': 'py4e-int-i304',
                         # new 7/2019 changes
                        'dynamic_pages': dynamic_pages,
                        'downloads_enabled': 'false',
